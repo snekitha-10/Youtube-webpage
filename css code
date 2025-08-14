@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+}
+.container-fluid{
+ 
+    border: 1px solid transparent;
+}
+.create{
+    width: 100px;
+}
+.item{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.head{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+}
+.icon{
+    height: 10px;
+    width: 10px;
+    color: red;
+    margin-bottom: 55px;
+}
+.icon2{
+    color: white;
+    border: 0;
+    border-radius: 40px;
+}
+.YOUTUBE{
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.d-flex{
+  width: 500px;
+  margin-left: 400px;
+}
+a{
+    color: rgb(250, 246, 246);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(17, 17, 17);
+    font-size: 20px;
+    padding: 9px;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    background-color: rgb(73, 72, 72);
+    color: antiquewhite;
+}
+.main{
+    display: grid;
+    grid-template-columns:290px 1fr;
+    height: 1000px;
+   
+}
+
+.aside1{
+    color: antiquewhite;
+    border-right: 2px solid rgb(39, 37, 37);
+    overflow-y: scroll;
+}
+ul.list{
+    list-style-type: none;
+}
+.items{
+    border: 0;
+    background-color: transparent;
+}
+.aside2{
+    margin-left: 15px;
+}
+.videos{
+    margin-top: 19px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    height: 350px;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+.grid-item{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    
+}
+
+iframe{
+    border: 1px solid rgb(26, 25, 25);
+    border-radius: 20px;
+}
+
+p{
+    text-align: justify;
+    font-weight:bolder;
+    color: aliceblue;
+}
+h6{
+    text-align: justify;
+    color: rgb(58, 58, 57);
+}
+ul{
+    overflow-block:scroll;
+    scrollbar-color: rgb(61, 60, 60) rgb(34, 33, 32);
+    scrollbar-width: thin;
+  }
+  
